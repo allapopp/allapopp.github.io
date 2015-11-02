@@ -1,10 +1,10 @@
 function setup(){
-  createCanvas(100, 100, WEBGL);
+  createCanvas(500, 500, WEBGL);
 }
 
 function draw(){
-  background(200);
-  rotateX(frameCount * 0.01);
-  rotateZ(frameCount * 0.01);
-  cylinder(200, 200);
+  background(255,255,255)
+  rotateX(frameCount * 0.02);
+  rotateZ(frameCount * 0.02);
+  cylinder(300, 300);
 }
