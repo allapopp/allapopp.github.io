@@ -1,12 +1,17 @@
-@font-face {
-    font-family: "geo";
-    src: url("/fonts/geo.otf") format("opentype");
 
 body {
 	padding: 0; 
 	margin: 0;
 	font-family: "geo";
 }
+
+
+@font-face {
+    font-family: "geo";
+    src: url("/fonts/geo.otf") format("opentype");
+}
+
+
 
 .animated_bg {
 	background: #F08080; 
