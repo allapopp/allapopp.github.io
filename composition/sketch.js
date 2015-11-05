@@ -1,5 +1,11 @@
+var ex1 = function( s ) {
+  s.setup = function() {
+}
+  s.draw = function() {
+    s.ellipse(50,50,80,80);
+  }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas();
 }
 
 function draw() {
@@ -19,16 +25,23 @@ function draw() {
     strokeWeight(15);
     line(100,50,50,50);
     
-  
+    curve(5, 26, 5, 26, 73, 24, 73, 61);
+    stroke(0);
+    curve(5, 26, 73, 24, 73, 61, 15, 65);
+    stroke(255, 102, 0);
+    curve(73, 24, 73, 61, 15, 65, 15, 65);
     
-    rect(10,10,100,100,20);
+    
     stroke("black");
     point(300,300);
     stroke(255, 102, 0);
-curve(5, 26, 5, 26, 73, 24, 73, 61);
-stroke(0);
-curve(5, 26, 73, 24, 73, 61, 15, 65);
-stroke(255, 102, 0);
-curve(73, 24, 73, 61, 15, 65, 15, 65);
+    
+    noFill();
+    noStroke();
+    rotateX(frameCount * 0.02);
+    rotateZ(frameCount * 0.02);
+    cylinder(300, 300);
+
+
 }
 
