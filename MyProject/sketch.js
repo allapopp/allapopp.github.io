@@ -133,9 +133,8 @@ function keyPressed() {
 
 function touchMoved() {
 
-  stroke("IndianRed");
   noFill();
-  ellipse(touchX, touchY, touchX/10, touchY/5);
+  ellipse(touchX, touchY, touchX/5, touchY/5);
   // prevent default
   return false;
 }
