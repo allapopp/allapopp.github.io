@@ -132,15 +132,16 @@ function keyPressed() {
 }
 
 function touchMoved() {
-  strokeWeight(0.5);
+
+  stroke("IndianRed");
   fill(strokeBasic);
-  ellipse(touchX, touchY, touchY/2, touchX/2);
+  ellipse(touchX, touchY, touchY/10, touchX/10);
   // prevent default
   return false;
 }
 
-function touchStarted() {
-  ellipse(touchX, touchY, 10, 10);
+//function touchStarted() {
+  //ellipse(touchX, touchY, 10, 10);
   // prevent default
-  return false;
-}
+  //return false;
+//}
