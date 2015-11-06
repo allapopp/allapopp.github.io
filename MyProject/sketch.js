@@ -132,7 +132,7 @@ function keyPressed() {
 }
 
 function touchMoved() {
-  strokeWeight(2);
+  strokeWeight(0.05);
   fill(strokeBasic);
   ellipse(touchX, touchY, touchY/2, touchX/2);
   // prevent default
@@ -140,7 +140,7 @@ function touchMoved() {
 }
 
 function touchStarted() {
-  rect(touchX, touchY, touchX, touchY);
+  rect(touchX, touchY, 5, 5);
   // prevent default
   return false;
 }
