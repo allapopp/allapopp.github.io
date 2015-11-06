@@ -132,7 +132,7 @@ function keyPressed() {
 }
 
 function touchMoved() {
-  noStroke();
+  strokeWeight(2);
   fill(strokeBasic);
   ellipse(touchX, touchY, touchY/2, touchX/2);
   // prevent default
