@@ -138,3 +138,9 @@ function touchMoved() {
   // prevent default
   return false;
 }
+
+function touchStarted() {
+  rect(touchX, touchY, touchX, touchY);
+  // prevent default
+  return false;
+}
