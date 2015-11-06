@@ -135,7 +135,7 @@ function touchMoved() {
 
   stroke("IndianRed");
   fill(strokeBasic);
-  ellipse(touchX, touchY, touchY/10, touchX/10);
+  ellipse(touchX, touchY, touchX/5, touchY/10);
   // prevent default
   return false;
 }
