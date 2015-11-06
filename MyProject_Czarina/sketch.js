@@ -131,11 +131,13 @@ function keyPressed() {
   return false; // prevent default
 }
 
+var colorEllipse = 'yellow';
+
 function touchMoved() {
   
   stroke(5);
   stroke("blue");
-  fill("red");
+  fill(colorEllipse);
   ellipse(touchX, touchY, touchX/20, touchY/20);
   //line(touchX, touchY, windowWidth/2, windowHeight/2);
   // prevent default
