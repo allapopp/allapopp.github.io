@@ -8,13 +8,7 @@ function setup() {
   soundFormats('mp3', 'ogg');
   sound = loadSound('Stories_mixdown.mp3');
                   
-                  //createCanvas(windowWidth, windowHeight);
-                  //createCanvas(windowWidth,500);
-                  //noCanvas();
-
-                  //background(94,176,183);
-                  //var bgColor = random(255);
-                  //background(0,0,bgColor);
+          
   noCursor();
 
 }
@@ -27,17 +21,9 @@ var strokeBasic3 = 'rgba(94,176,183, 0.5)';
 var strokeWeightToChange = '0.001';
 
 function draw() {
-                  //stroke(10)
-                  //noFill();
-                  //triangle(100, 300, 600, 80, 1000, 450);
-                  //var mousePercent = (mouseX/width)*100;
-                  //background(mousePercent*2,mousePercent/4,183);
-                  //var newColor = 'hsb(160, 100%, ' + mousePercent + '%)';
-                  //background(newColor);
-	
+                 
   noStroke();
-                  //ellipse(mouseX+100, mouseY+100, 80, 80);
-                  //rect(mouseX-100, mouseY-100, 250, 250);
+                  
   fill(fillVal);
   rect(0, 0, windowWidth, windowHeight);
   
