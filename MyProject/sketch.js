@@ -134,8 +134,9 @@ function keyPressed() {
 function touchMoved() {
 
   noFill();
-  ellipse(touchX, touchY, touchX/2, touchY*1.5);
-  line(touchX+100, touchY+100, windowWidth, windowHeight);
+  ellipse(touchX, touchY, touchX/5, touchY/5);
+  stroke(5);
+  line(touchX, touchY, windowWidth/2, windowHeight/2);
   // prevent default
   return false;
 }
