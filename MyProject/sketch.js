@@ -131,3 +131,8 @@ function keyPressed() {
   return false; // prevent default
 }
 
+function touchStarted() {
+  ellipse(touchX, touchY, 5, 5);
+  // prevent default
+  return false;
+}
