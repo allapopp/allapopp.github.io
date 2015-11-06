@@ -135,6 +135,7 @@ function touchMoved() {
 
   noFill();
   ellipse(touchX, touchY, touchX/2, touchY*1.5);
+  line(touchX+100, touchY+100, windowWidth, windowHeight);
   // prevent default
   return false;
 }
