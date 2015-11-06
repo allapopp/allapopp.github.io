@@ -131,7 +131,7 @@ function keyPressed() {
   return false; // prevent default
 }
 
-var colorEllipse = 'yellow';
+var colorEllipse = 0;
 
 function touchMoved() {
   
@@ -142,6 +142,13 @@ function touchMoved() {
   //line(touchX, touchY, windowWidth/2, windowHeight/2);
   // prevent default
   return false;
+}
+
+function deviceMoved() {
+  value = value + 5;
+  if (value > 255) {
+    value = 0;
+  }
 }
 
 //function touchStarted() {
