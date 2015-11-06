@@ -136,6 +136,7 @@ function touchMoved() {
   fill("red");
   ellipse(touchX, touchY, touchX/20, touchY/20);
   stroke(5);
+  stroke("blue");
   line(touchX, touchY, windowWidth/2, windowHeight/2);
   // prevent default
   return false;
