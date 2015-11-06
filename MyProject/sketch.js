@@ -134,7 +134,7 @@ function keyPressed() {
 function touchMoved() {
 
   noFill();
-  ellipse(touchX, touchY, touchX/5, touchY/5);
+  ellipse(touchX, touchY, touchX*2, touchY*2);
   // prevent default
   return false;
 }
