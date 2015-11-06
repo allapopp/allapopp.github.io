@@ -133,7 +133,7 @@ function keyPressed() {
 
 function touchMoved() {
 
-  noFill();
+  Fill("red");
   ellipse(touchX, touchY, touchX/5, touchY/5);
   stroke(5);
   line(touchX, touchY, windowWidth/2, windowHeight/2);
