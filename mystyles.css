@@ -1,0 +1,31 @@
+body {
+    background-color: #8765cc;
+    font-family: "Helvetica", "sans-serif", "arial"; /*web safe fonts*/
+    color:white;
+    padding:20px;
+    border:10px dotted yellow;
+}
+
+h1 {
+    font-size:50;
+    font-family: "roboto";
+    color:black;
+    text-align:center;
+    
+}
+
+
+.special {
+    color:lime;
+}
+
+
+#body1 {
+    background-color:red;
+    width:100px;
+    height:200px;
+    overflow:hidden;
+    position:fixed;
+    bottom:20px;
+    right:100px;
+}

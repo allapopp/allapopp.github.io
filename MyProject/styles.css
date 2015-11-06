@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "geo";
+    src: url("/fonts/geo.otf") format("opentype");
+}
 
 body {
 	padding: 0; 
@@ -5,18 +9,9 @@ body {
 	font-family: "geo";
 }
 
-
-@font-face {
-    font-family: "geo";
-    src: url("/fonts/geo.otf") format("opentype");
-}
-
-
-
 .animated_bg {
-	background: #F08080; 
-	color: #fff;
-	position:relative;
+	/*background: #5EB0B7; 
+	color: #fff;*/
 }
 
 #text {
@@ -32,3 +27,21 @@ p {
 	position: absolute;
 
 }
+
+#myContainer {
+
+	position: absolute;
+	display:inherit;
+	/*height:500px;
+	margin-bottom: 1px;
+	margin-top: 150px;*/
+    
+
+}
+
+
+
+
+
+
+
